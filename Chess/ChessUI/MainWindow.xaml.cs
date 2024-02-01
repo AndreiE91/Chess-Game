@@ -112,6 +112,7 @@ namespace ChessUI
         }
 
         private void HandlePromotion(Position from, Position to) {
+
             pieceImages[to.Row, to.Column].Source = Images.GetImage(gameState.CurrentPlayer, PieceType.Pawn);
             pieceImages[from.Row, from.Column].Source = null;
 
@@ -131,8 +132,17 @@ namespace ChessUI
             DrawBoard(gameState.Board);
             SetCursor(gameState.CurrentPlayer);
 
-            if(gameState.IsGameOver()) {
+            if (gameState.Capture) {
+                SoundFX.PlaySound("PieceCapture");
+            } else {
+                SoundFX.PlaySound("PieceMove");
+            }
+
+            if (gameState.IsGameOver()) {
                 ShowGameOver();
+            }
+            else if (gameState.Board.IsInCheck(gameState.CurrentPlayer)) {
+                SoundFX.PlaySound("Check");
             }
         }
 
@@ -145,6 +155,7 @@ namespace ChessUI
         }
 
         private void ShowHighlights() {
+            SoundFX.PlaySound("PieceSelect");
             Color color = Color.FromArgb(150, 125, 255, 125);
 
             foreach (Position to in moveCache.Keys) {
@@ -171,6 +182,7 @@ namespace ChessUI
         }
 
         private void ShowGameOver() {
+            SoundFX.PlaySound("GameOver");
             GameOverMenu gameOverMenu = new GameOverMenu(gameState);
             MenuContainer.Content = gameOverMenu;
 
@@ -187,6 +199,7 @@ namespace ChessUI
 
         private void RestartGame() {
 
+            SoundFX.PlaySound("Restart");
             selectedPos = null;
             HideHighlights();
             moveCache.Clear();
@@ -203,6 +216,8 @@ namespace ChessUI
         }
 
         private void ShowPauseMenu() {
+
+            SoundFX.PlaySound("MenuPopup");
 
             PauseMenu pauseMenu = new PauseMenu();
             MenuContainer.Content = pauseMenu;

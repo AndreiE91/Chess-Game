@@ -10,6 +10,7 @@ namespace ChessUI {
     public partial class PromotionMenu : UserControl {
 
         public event Action<PieceType> PieceSelected;
+
         public PromotionMenu(Player player) {
             InitializeComponent();
 
@@ -21,18 +22,22 @@ namespace ChessUI {
 
         private void QueenImg_MouseDown(object sender, MouseButtonEventArgs e) {
             PieceSelected?.Invoke(PieceType.Queen);
+            SoundFX.PlaySound("PawnQueen");
         }
 
         private void RookImg_MouseDown(object sender, MouseButtonEventArgs e) {
             PieceSelected?.Invoke(PieceType.Rook);
+            SoundFX.PlaySound("PawnQueen");
         }
 
         private void BishopImg_MouseDown(object sender, MouseButtonEventArgs e) {
             PieceSelected?.Invoke(PieceType.Bishop);
+            SoundFX.PlaySound("PawnQueen");
         }
 
         private void KnightImg_MouseDown(object sender, MouseButtonEventArgs e) {
             PieceSelected?.Invoke(PieceType.Knight);
+            SoundFX.PlaySound("PawnQueen");
         }
     }
 }

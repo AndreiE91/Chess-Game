@@ -1,0 +1,12 @@
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\bin\Release\net6.0\ChessLogic.deps.json
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\bin\Release\net6.0\ChessLogic.dll
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\bin\Release\net6.0\ChessLogic.pdb
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.csproj.AssemblyReference.cache
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.AssemblyInfoInputs.cache
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.AssemblyInfo.cs
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.dll
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\refint\ChessLogic.dll
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ChessLogic.pdb
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessLogic\obj\Release\net6.0\ref\ChessLogic.dll

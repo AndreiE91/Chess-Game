@@ -29,3 +29,13 @@ C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-wind
 C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-windows\PromotionMenu.baml
 C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-windows\PauseMenu.g.cs
 C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-windows\PauseMenu.baml
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-windows\ChessUI_Content.g.cs
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\buttonClick.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\capture.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\move.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\pawnQueen.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\gameOver.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\restart.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\kingCheck.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\pieceSelect.wav
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\bin\Debug\net6.0-windows\SFX\menuPopup.wav

@@ -10,6 +10,8 @@
 
         private readonly Dictionary<String, int> stateHistory = new Dictionary<string, int>();
 
+        public bool Capture;
+
         public GameState(Player player, Board board) {
             CurrentPlayer = player;
             Board = board;
@@ -34,7 +36,10 @@
 
             Board.SetPawnSkipPosition(CurrentPlayer, null);
 
+            bool pawn = Board[move.FromPos].Type == PieceType.Pawn  && Board[move.ToPos] == null;
             bool captureOrPawn = move.Execute(Board);
+            bool capture = captureOrPawn && !pawn;
+            Capture = capture;
 
             if (captureOrPawn) {
                 noCaptureOrPawnMoves = 0;
