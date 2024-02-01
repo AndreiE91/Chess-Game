@@ -1,42 +1,23 @@
 # Chess-Game
 
+## Description
+
+This is a Chess Game implemented in C# using the Windows Presentation Foundation (WPF) framework. The game follows the standard rules of chess and provides a user-friendly interface for playing against another player locally.
+
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; flex-direction: column; align-items: center;">
 
    <div style="margin-bottom: 10px;">
       <p style="text-align: center;">Starting Position</p>
       <img src="Screenshots/screenshot_start.png" alt="Starting Position" width="300">
-    </div>
+   </div>
 
    <div style="margin-bottom: 10px;">
       <p style="text-align: center;">Checkmate</p>
       <img src="Screenshots/screenshot_mate.png" alt="Checkmate" width="300">
-    </div>
+   </div>
 
-  </div>
-
-  <div style="display: flex; flex-direction: column; align-items: center;">
-
-   <div style="margin-bottom: 10px;">
-      <p style="text-align: center;">En Passant</p>
-      <img src="Screenshots/screenshot_enpassant.png" alt="En Passant" width="300">
-    </div>
-
-   <div style="margin-bottom: 10px;">
-      <p style="text-align: center;">Stalemate</p>
-      <img src="Screenshots/screenshot_stalemate.png" alt="Stalemate" width="300">
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-## Description
-
-This is a Chess Game implemented in C# using the Windows Presentation Foundation (WPF) framework. The game follows the standard rules of chess and provides a user-friendly interface for playing against another player locally.
+ </div>
 
 ## Features
 
@@ -47,6 +28,25 @@ This is a Chess Game implemented in C# using the Windows Presentation Foundation
 - All special rules included (En Passant, Fifty-Move Rule, Threefold Repetition).
 - Sound effects for every interaction.
 - Responsive design for different screen sizes.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">En Passant</p>
+      <img src="Screenshots/screenshot_enpassant.png" alt="En Passant" width="300">
+   </div>
+
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">Stalemate</p>
+      <img src="Screenshots/screenshot_stalemate.png" alt="Stalemate" width="300">
+   </div>
+
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">Pawn Promotion</p>
+      <img src="Screenshots/screenshot_pawnqueen.png" alt="Pawn Promotion" width="300">
+   </div>
+
+</div>
 
 ## Getting Started
 
