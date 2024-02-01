@@ -1,14 +1,38 @@
 # Chess-Game
 
-![Starting Position](Screenshots/screenshot_start.png)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
 
-![En Passant](Screenshots/screenshot_enpassant.png)
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">Starting Position</p>
+      <img src="Screenshots/screenshot_start.png" alt="Starting Position" width="300">
+    </div>
 
-![Checkmate](Screenshots/screenshot_mate.png)
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">Checkmate</p>
+      <img src="Screenshots/screenshot_mate.png" alt="Checkmate" width="300">
+    </div>
 
-![Stalemate](Screenshots/screenshot_stalemate.png)
+  </div>
 
-![Pawn Promotion](Screenshots/screenshot_pawnqueen.png)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">En Passant</p>
+      <img src="Screenshots/screenshot_enpassant.png" alt="En Passant" width="300">
+    </div>
+
+   <div style="margin-bottom: 10px;">
+      <p style="text-align: center;">Stalemate</p>
+      <img src="Screenshots/screenshot_stalemate.png" alt="Stalemate" width="300">
+    </div>
+
+  </div>
+</div>
+
+
+
+
 
 ## Description
 
