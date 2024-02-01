@@ -1,0 +1,20 @@
+﻿ChessUI
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\obj\Debug\net6.0-windows\
+ChessUI
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\Andrei Eminovici\Desktop\Chess-Game\Chess\ChessUI\App.xaml
+4-1284736647
+
+111314447376
+195-2085857559
+GameOverMenu.xaml;MainWindow.xaml;PauseMenu.xaml;PromotionMenu.xaml;
+
+True
+
