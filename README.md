@@ -1,5 +1,4 @@
 # Chess-Game
-Chess Game
 
 Description
 
@@ -14,7 +13,7 @@ Features
     Sound effects for every interaction.
     Responsive design for different screen sizes.
 
-Getting Started
+# Getting Started
 
     Clone the repository:
 
@@ -26,7 +25,7 @@ Getting Started
     Build the solution (Ctrl+Shift+B) to restore NuGet packages and build the project.
     Start the application by running the project (F5).
 
-Usage
+# Usage
 
     Upon starting the application, the chessboard is displayed along with the pieces in their starting positions.
     Click on a piece to select it. Legal moves for the selected piece will be highlighted.
@@ -34,7 +33,7 @@ Usage
     The game ends when a player's king is in checkmate, or when players agree to a draw by pressing ESC and "RESTART".
     To start a new game, use the "RESTART" button in the ESC menu.
 
-Contributing
+# Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -44,7 +43,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
     Push to the branch (git push origin feature/new-feature).
     Create a new Pull Request.
 
-Credits
+# Credits
 
 Big thanks to OttoBotCode for their coding series which helped with creating the core features of the project.
 Check out their website and YouTube channel:
@@ -53,6 +52,6 @@ https://www.youtube.com/@OttoBotCode
 
 This Chess Game project is maintained by [AndreiE91].
 
-License
+# License
 
 This project is licensed under the MIT License.
