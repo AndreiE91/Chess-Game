@@ -78,4 +78,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Credits
 
-This Chess Game project is maintained by [AndreiE91].
+This Chess Game project is maintained by AndreiE91.
