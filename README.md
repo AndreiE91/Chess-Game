@@ -78,15 +78,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Credits
 
-Big thanks to OttoBotCode for their coding series which helped with creating the core features of the project.
-Check out their website and YouTube channel:
-
-https://ottobotcode.com/
-
-https://www.youtube.com/@OttoBotCode
-
 This Chess Game project is maintained by [AndreiE91].
-
-## License
-
-This project is licensed under the MIT License.
