@@ -85,7 +85,7 @@ namespace ChessUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChessUI;component/promotionmenu.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChessUI;V1.0.0.0;component/promotionmenu.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PromotionMenu.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
