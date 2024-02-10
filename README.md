@@ -1,5 +1,7 @@
 # Chess-Game
 
+![GIF chess](Screenshots/chess_gif.gif)
+
 ## Description
 
 This is a Chess Game implemented in C# using the Windows Presentation Foundation (WPF) framework. The game follows the standard rules of chess and provides a user-friendly interface for playing against another player locally.
@@ -53,6 +55,7 @@ This is a Chess Game implemented in C# using the Windows Presentation Foundation
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/AndreiE91/Chess-Game.git
+   ```
 
 Open the solution file ChessGame.sln in Visual Studio.
 Build the solution (Ctrl+Shift+B) to restore NuGet packages and build the project.
